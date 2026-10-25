@@ -1,0 +1,16 @@
+generated: '2026-10-24'
+method: none
+source:
+- https://zapier.com/apps/adiabatic-machines/integrations
+- https://n8n.io/integrations/adiabatic-machines/
+- https://composio.dev/toolkits/adiabatic-machines
+- https://monid.ai/tools/adiabatic-machines
+checked:
+- https://composio.dev/toolkits/adiabatic-machines
+- https://monid.ai/tools/adiabatic-machines
+- https://n8n.io/integrations/adiabatic-machines/
+- https://zapier.com/apps/adiabatic-machines/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

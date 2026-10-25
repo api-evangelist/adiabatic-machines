@@ -1,25 +1,67 @@
 aid: adiabatic-machines
+
 name: Adiabatic Machines
-description: 'Adiabatic Machines is a company surfaced via the API Evangelist harvest backlog (source:
-  vc-portfolio; backed by founder-collective) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://adiabaticmachines.com/chip-tweezers.jpg
+
+description: 'Adiabatic Machines builds computers for AI that replace conventional semiconductor GPUs with superconducting chips, cutting the power needed for AI inference by 10‑100×. Their technology leverages adiabatic quantum‑computing principles to deliver ultra‑low‑energy, high‑throughput processors for modern artificial‑intelligence workloads, targeting data‑center scale deployments and edge AI applications.'
+
 url: https://raw.githubusercontent.com/api-evangelist/adiabatic-machines/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-24 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-24'
+
 modified: '2026-10-24'
+
 tags:
 - Company
-apis: []
+- AI
+- Supercomputing
+- Quantum Computing
+- Low Power
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- founder-collective
+
 common:
+- type: Hosts
+  url: hosts/adiabatic-machines-hosts.yml
+- type: Vendors
+  url: vendors/adiabatic-machines-vendors.yml
+- type: Leadership
+  url: https://adiabaticmachines.com/team/
+- type: DomainSecurity
+  url: security/adiabatic-machines-domain-security.yml
 - type: Website
   url: https://adiabaticmachines.com/
+
+apis: []
+
+x-backed-by:
+- founder-collective
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: The provider's documentation site is a JavaScript‑rendered Next.js application, preventing machine‑readable extraction of an API contract.
+  evidence:
+    - url: https://adiabaticmachines.com/
+      status: 200
+  checked: '2026-10-24'
+x-enrichment:
+  date: '2026-10-24'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
